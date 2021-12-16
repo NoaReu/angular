@@ -1,0 +1,66 @@
+.flag{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+
+    width: 80px;
+    height: 50px;
+}
+body{
+    background-image: url("https://www.gstatic.com/earth/social/00_generic_facebook-001.jpg") ;
+}
+input{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+h1{
+    color: white;
+    text-align: center;
+    position: relative;
+}
+p{
+    color: white;
+    text-align: center;
+    position: relative;
+
+}
+input{
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+
+}
+table{
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 6px solid rgb(190, 144, 144);
+    background-color:rgb(230, 218, 218) ;
+  }
+  
+  thead th:nth-child(1) {
+    width: 30%;
+  }
+  
+  thead th:nth-child(2) {
+    width: 20%;
+  }
+  
+  thead th:nth-child(3) {
+    width: 15%;
+  }
+  
+  thead th:nth-child(4) {
+    width: 35%;
+  }
+  
+  th, td {
+    padding: 20px;
+  }
+  td{
+    text-align: center;
+    position: relative;
+  }

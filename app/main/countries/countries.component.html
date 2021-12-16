@@ -1,0 +1,30 @@
+<body>
+
+    <h1>Countries!</h1>
+    <p>search the country or capital:</p>
+    <input [(ngModel)]="searchText" (keyup)="filter()" type="text" placeholder="country">
+    <br>
+    <br>
+    <br>
+    
+    <div *ngIf="searchText">
+        <table border="1">
+            <tr>
+                <th id=5>Flag</th>
+                <th id=1>Name</th>
+                <th id=2>Native Name</th>
+                <th id=3>Capital</th>
+                <th id=4>Population</th>
+                
+            </tr>
+            <tr *ngFor="let c of filterArr" >
+                <td > <img class="flag"src="{{c.flag}}"></td>
+                <td class="name">{{c.name}}</td>
+                <td >{{c.nativeName}}</td> 
+                <td class="capital">{{c.capital}}</td> 
+                <td class="population">{{c.population}}</td> 
+                
+            </tr>
+        </table>
+    </div>
+</body>

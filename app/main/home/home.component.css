@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+}
+.earth{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+h2{
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+
+}
+h4{
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+}
